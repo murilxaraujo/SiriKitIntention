@@ -24,6 +24,7 @@
 		4BCE57452458C0E400C8E38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BCE57482458C0E400C8E38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BCE574A2458C0E400C8E38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCE57502458C10E00C8E38D /* SiriKitIntention.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriKitIntention.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		4BCE573B2458C0DE00C8E38D /* SiriKitIntention */ = {
 			isa = PBXGroup;
 			children = (
+				4BCE57502458C10E00C8E38D /* SiriKitIntention.entitlements */,
 				4BCE573C2458C0DE00C8E38D /* AppDelegate.swift */,
 				4BCE573E2458C0DE00C8E38D /* SceneDelegate.swift */,
 				4BCE57402458C0DE00C8E38D /* ViewController.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriKitIntention/SiriKitIntention.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29346794D4;
 				INFOPLIST_FILE = SiriKitIntention/Info.plist;
@@ -302,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriKitIntention/SiriKitIntention.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29346794D4;
 				INFOPLIST_FILE = SiriKitIntention/Info.plist;
