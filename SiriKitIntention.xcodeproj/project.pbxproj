@@ -13,6 +13,7 @@
 		4BCE57442458C0DE00C8E38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE57422458C0DE00C8E38D /* Main.storyboard */; };
 		4BCE57462458C0E400C8E38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE57452458C0E400C8E38D /* Assets.xcassets */; };
 		4BCE57492458C0E400C8E38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE57472458C0E400C8E38D /* LaunchScreen.storyboard */; };
+		4BCE57522458C14E00C8E38D /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE57512458C14E00C8E38D /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4BCE57482458C0E400C8E38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BCE574A2458C0E400C8E38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BCE57502458C10E00C8E38D /* SiriKitIntention.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriKitIntention.entitlements; sourceTree = "<group>"; };
+		4BCE57512458C14E00C8E38D /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				4BCE57452458C0E400C8E38D /* Assets.xcassets */,
 				4BCE57472458C0E400C8E38D /* LaunchScreen.storyboard */,
 				4BCE574A2458C0E400C8E38D /* Info.plist */,
+				4BCE57512458C14E00C8E38D /* Intents.intentdefinition */,
 			);
 			path = SiriKitIntention;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				4BCE57412458C0DE00C8E38D /* ViewController.swift in Sources */,
 				4BCE573D2458C0DE00C8E38D /* AppDelegate.swift in Sources */,
+				4BCE57522458C14E00C8E38D /* Intents.intentdefinition in Sources */,
 				4BCE573F2458C0DE00C8E38D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
